@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact details, map and message form of SABER HAYAT KHAN.">
+  <meta name="author" content="SABER HAYAT KHAN">
+  <meta name="keywords" content="portfolio, HTML, CSS, student, web programming">
+  <title>Contact | SABER HAYAT KHAN</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">SABER HAYAT KHAN</a>
+    <nav aria-label="Main navigation">
+      <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="media.html">Favourite Media</a></li>
+          <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Contact Me</h1>
+      <p>You can reach me using the details below or send a message with the form.</p>
+    </section>
+
+    <section class="card">
+      <h2>My details</h2>
+      <article>
+        <p><strong>Name:</strong> SABER HAYAT KHAN</p>
+        <p><strong>Designation:</strong> BS Computer Science Student – 6th Semester</p>
+        <p><strong>Email:</strong> <a href="mailto:sabirhayatkhan369@gmail.com">sabirhayatkhan369@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+923320035936">03320035936</a></p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>My friends</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Friends' names and IDs</caption>
+          <thead>
+            <tr><th>No.</th><th>Name</th><th>ID</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>ARYAN TAHIR MUGHAL</td><td>41095</td></tr>
+            <tr><td>2</td><td>MUSA HAMEED</td><td>40111</td></tr>
+            <tr><td>3</td><td>MUSA KHAN</td><td>40123</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Find me here</h2>
+      <div class="map-box">
+        <iframe src="https://www.google.com/maps?q=Iqra+University,+H-9,+Islamabad&amp;output=embed" title="Google Map of Iqra University, Islamabad" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Send a message</h2>
+      <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 SABER HAYAT KHAN &ndash; Roll No: 41106 &ndash; CSC 337, Iqra University Islamabad</p>
+  </footer>
+</body>
+</html>
